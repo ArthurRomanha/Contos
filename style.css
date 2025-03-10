@@ -5,4 +5,22 @@
 }
 html{
     font-family: "Montserrat", Verdana, Geneva, Tahoma, sans-serif;
+    background-color: black;
+    color: white;
+}
+button{
+    border: none;
+    background-color: none;
+}
+.container-carrousel{
+    display: flex;
+    justify-content: space-around;
+}
+.contos{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+.img-conto{
+    width: 100px;
+    height: 200px;
 }
