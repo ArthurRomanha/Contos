@@ -3,24 +3,53 @@
     padding: 0;
     box-sizing: border-box;
 }
-html{
+
+html {
     font-family: "Montserrat", Verdana, Geneva, Tahoma, sans-serif;
     background-color: black;
     color: white;
 }
-button{
-    border: none;
-    background-color: none;
+
+body {
+    background-color: #43465e;
 }
-.container-carrousel{
+
+header {
+    background-color: #db0000;
+    text-align: center;
+    justify-content: center;
+}
+
+main {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
 }
-.contos{
+
+footer {
+    background-color: #181a1a;
+    text-align: center;
+    justify-content: center;
+}
+
+button {
+    border: transparent;
+    background-color: transparent;
+}
+
+.container-carousel {
+    display: flex;
+    width: 300px;
+    overflow-x: hidden;
+}
+
+.contos {
     display: grid;
     grid-template-columns: 1fr;
+    text-align: center;
+    align-items: center;
 }
-.img-conto{
-    width: 100px;
-    height: 200px;
+
+.img-conto {
+    width: 300px;
+    height: auto;
 }
